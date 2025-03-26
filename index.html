@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet"> <!-- Link para a fonte -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,20 +22,22 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
         }
-        .profile-header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
+        .profile-header {
+            white-space: pre; /* Mantém a formatação do ASCII */
+            font-family: 'Old Standard TT', serif; /* Aplica a fonte Old Standard TT */
+            color: #FF0000; /* Cor vermelha para a arte ASCII */
+            margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+        }
+        .social-links {
+            display: flex; /* Usar flexbox para alinhar os links */
+            justify-content: space-between; /* Espaço entre os links */
+            margin-top: 20px; /* Espaço acima dos links */
         }
         .social-links a {
-            margin: 0 10px;
             text-decoration: none; /* Corrigido o texto decorado */
             color: #FFFFFF; /* Cor do link branco */
             text-transform: uppercase; /* Letras maiúsculas */
             transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
-            display: block; /* Faz com que cada link ocupe uma linha */
-            margin-bottom: 5px; /* Espaço entre os links */
         }
         .social-links a:hover {
             text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
@@ -49,53 +52,75 @@
             font-weight: bold; /* Negrito */
             margin-top: 20px; /* Espaço acima da frase */
         }
-        pre {
-            white-space: pre-wrap; /* Mantém a formatação da arte */
-            word-wrap: break-word; /* Quebra palavras longas */
-            color: #FF0000; /* Cor do texto da arte em vermelho */
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="profile-header">
-        <img src="https://photos.app.goo.gl/XwP3HXGmwJUvTFyx8" alt="Foto de Perfil"> <!-- Link de exemplo -->
+        <pre>
+  ,-.      __,---.__   ,',`\ 
+ / `.`. ,-'         `-/ /   )
+(    `,'             _ \   ; 
+ \  _( _           ,'  )/  : 
+  \ `-( `-.      ,'    /  /  
+   \   \ __`.___/_,-( /_,'   
+    `--'`,\_o,(_)o_,',       
+        (    /`-'\    )      
+         `--:\,m//`--'       
+             `--'            
+        </pre>
         <h1>ph7 häzärd</h1>
     </div>
 
     <h2>Redes Sociais</h2>
     <div class="social-links">
-        <a href="https://t.me/Sacrificado7" target="_blank">Telegram 1</a>
-        <span>@Sacrificado7</span>
-        <a href="https://t.me/Crimelouko7" target="_blank">Telegram 2</a>
-        <span>@Crimelouko7</span>
+        <div>
+            <a href="https://t.me/Sacrificado7" target="_blank">Telegram 1</a>
+            <span>@Sacrificado7</span>
+        </div>
+        <div>
+            <a href="https://t.me/Crimelouko7" target="_blank">Telegram 2</a>
+            <span>@Crimelouko7</span>
+        </div>
     </div>
 
-    <pre>
-⠀⠀⠀⠀⠀⠀⢀⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⣰⠟⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡻⣧⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣰⡇⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠘⣧⠀⠀⠀
-⠀⠀⠀⣰⡏⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⢸⣧⠀⠀⠀
-⠀⠀⢰⠃⢸⠄⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⢾⠈⣧⠀⠀
-⠀⠀⢸⡄⢸⣄⠀⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀⢀⡏⢀⣟⠀⠀
-⠀⢠⠿⡇⠈⣿⡀⠀⠻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⠁⠀⣽⠇⢀⡟⡆⠀
-⠀⢸⠀⢻⠂⠸⣷⡀⠀⠙⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠀⢀⣼⡟⠀⡺⠀⣹⠀
-⠀⣼⡃⢸⣷⠄⢹⣿⣆⠸⣏⠳⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⢡⡇⢀⣿⣯⠀⣴⡗⠀⣿⡀
-⢸⡇⢷⣄⠹⣷⣬⣿⣿⡛⠻⣆⠀⠙⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠚⠁⢀⡿⠛⣻⡿⢡⣼⠟⢀⡼⠁⡇
-⠀⢳⡀⣷⣄⡸⣿⣮⣿⣷⡀⠙⣶⣄⠀⠈⠑⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠁⠀⣀⣴⠏⠀⣾⣿⣥⣿⠏⣀⣼⠁⡼⠃
-⠀⠈⣯⠈⢿⣦⡘⣿⡄⠙⢦⣀⢽⣿⣿⠶⠄⠀⠹⡄⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⠁⠠⠶⣾⣿⡿⢁⡴⠛⢁⣼⠁⣴⡿⠋⣸⠇⠀
-⠀⠀⢸⠻⣆⠙⣿⣿⣿⣆⠀⢻⣷⣾⣿⣅⠀⠀⠀⣱⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⢀⣽⣷⣾⡟⠀⢀⣾⣿⣿⠋⣐⡾⣻⠀⠀
-⠀⠀⠈⢧⡈⢿⣬⣽⣿⣉⠙⢲⣮⣽⡇⠀⠀⢀⡞⠃⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡆⠀⠀⢰⣿⣵⡶⠚⢉⣹⣟⣡⣼⠏⣠⠃⠀⠀
-⠀⠀⠀⠘⢷⣄⡉⠻⣿⣿⣥⣤⣿⣿⣿⡋⠀⠈⠳⣄⡀⠀⠀⠀⠀⠀⠀⠀⣠⠾⠃⠀⢘⣿⣿⣿⣤⣤⣿⣿⠟⠋⣀⡴⠏⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⠙⠒⢬⡿⠋⠀⠀⣘⣿⣷⡟⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⣸⠁⠀⠀⢘⣾⣿⣇⡀⠀⠈⢻⡯⠔⠚⠉⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠷⢤⡞⠉⠀⣩⣿⣿⣾⠀⠀⠈⢣⠀⠀⠀⠀⣰⠃⠀⡀⢻⣿⣿⣯⡀⠉⠓⡦⠽⠇⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣷⣠⠞⠁⣰⠻⣿⣿⡧⠤⢌⣱⠄⠀⢾⡁⠤⢤⡿⣿⠟⢧⠀⠙⣦⣾⡗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣶⣦⣧⣤⣏⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⣜⣧⣬⣧⣶⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⢉⡉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    </pre>
-    <div class="end-message">Obrigado por visitar meu perfil!</div>
+    <div class="end-message" id="endMessage"></div>
 </div>
+
+<script>
+    const message = "THE END";
+    let index = 0;
+    let isDeleting = false;
+    const endMessageElement = document.getElementById("endMessage");
+
+    function typeMessage() {
+        if (isDeleting) {
+            // Apagar a mensagem
+            if (index > 0) {
+                endMessageElement.textContent = message.substring(0, index - 1);
+                index--;
+                setTimeout(typeMessage, 100); // Tempo entre cada letra ao apagar (100ms)
+            } else {
+                isDeleting = false; // Começa a escrever novamente
+                setTimeout(typeMessage, 1000); // Espera um segundo antes de começar a escrever
+            }
+        } else {
+            // Escrever a mensagem
+            if (index < message.length) {
+                endMessageElement.textContent = message.substring(0, index + 1);
+                index++;
+                setTimeout(typeMessage, 200); // Tempo entre cada letra ao escrever (200ms)
+            } else {
+                isDeleting = true; // Começa a apagar
+                setTimeout(typeMessage, 1000); // Espera um segundo antes de começar a apagar
+            }
+        }
+    }
+
+    // Inicia o efeito de digitação
+    typeMessage();
+</script>
 
 </body>
 </html>
